@@ -1,16 +1,28 @@
 ### Hi there 👋
 
-<!--
-**DylanPerdigao/dylanperdigao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Who am I?
+That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the University of Coimbra 🇵🇹
 
-Here are some ideas to get you started:
+## About Me
+  ➤ 👤 I'm a 🇵🇹Portuguese/🇨🇭Swiss man
+  ➤ 👶🏻 I was born in 🇨🇭Switzerland
+  ➤ 🏠 I'm actually living in 🇵🇹Portugal
+  ➤ 🔭 I’m currently working on some courses projects in my university
+  ➤ 🌱 I’m currently learning PHP, OpenGL and C++
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Languages
+My favorite programming language is:
+  ➤ 🐍 Python
+But I know other languages like:
+  ➤ C
+  ➤ Java
+  ➤ Javascript (and HTML/CSS)
+  ➤ VisualBasic
+I speak four human languages that are: 
+  ➤ 🇵🇹 Portuguese(fluent)
+  ➤ 🇫🇷 French(fluent)
+  ➤ 🇬🇧 English(B2)
+  ➤ 🇩🇪 German(B2)
+
+
+
