@@ -5,24 +5,24 @@ That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informat
 
 ## About Me
   ➤ 👤 I'm a 🇵🇹Portuguese/🇨🇭Swiss man<br>
-  ➤ 👶🏻 I was born in 🇨🇭Switzerland\n
-  ➤ 🏠 I'm actually living in 🇵🇹Portugal\n
-  ➤ 🔭 I’m currently working on some courses projects in my university\n
-  ➤ 🌱 I’m currently learning PHP, OpenGL and C++\n
+  ➤ 👶🏻 I was born in 🇨🇭Switzerland<br>
+  ➤ 🏠 I'm actually living in 🇵🇹Portugal<br>
+  ➤ 🔭 I’m currently working on some courses projects in my university<br>
+  ➤ 🌱 I’m currently learning PHP, OpenGL and C++<br>
 
 ## Languages
-My favorite programming language is:\n
-  ➤ 🐍 Python\n
-But I know other languages like:\n
-  ➤ C
-  ➤ Java
-  ➤ Javascript (and HTML/CSS)
-  ➤ VisualBasic
-I speak four human languages that are: 
-  ➤ 🇵🇹 Portuguese(fluent)
-  ➤ 🇫🇷 French(fluent)
-  ➤ 🇬🇧 English(B2)
-  ➤ 🇩🇪 German(B2)
+My favorite programming language is:<br>
+  ➤ 🐍 Python<br>
+But I know other languages like:<br>
+  ➤ C<br>
+  ➤ Java<br>
+  ➤ Javascript (and HTML/CSS)<br>
+  ➤ VisualBasic<br>
+I speak four human languages that are:<br>
+  ➤ 🇵🇹 Portuguese(fluent)<br>
+  ➤ 🇫🇷 French(fluent)<br>
+  ➤ 🇬🇧 English(B2)<br>
+  ➤ 🇩🇪 German(B2)<br>
 
 
 
