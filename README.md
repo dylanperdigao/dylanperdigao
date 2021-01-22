@@ -4,7 +4,7 @@
 That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the University of Coimbra 🇵🇹
 
 ## About Me
-  ➤ 👤 I'm a 🇵🇹Portuguese/🇨🇭Swiss man\n
+  ➤ 👤 I'm a 🇵🇹Portuguese/🇨🇭Swiss man<br>
   ➤ 👶🏻 I was born in 🇨🇭Switzerland\n
   ➤ 🏠 I'm actually living in 🇵🇹Portugal\n
   ➤ 🔭 I’m currently working on some courses projects in my university\n
