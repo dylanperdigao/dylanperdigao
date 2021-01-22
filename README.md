@@ -1,7 +1,7 @@
 # Hi there 👋
 
 ## Who am I?
-That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the University of Coimbra 🇵🇹
+That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the <a href="https://www.uc.pt">University of Coimbra</a> 🇵🇹
 
 ## About Me
   ➤ 👤 I'm a 🇵🇹Portuguese/🇨🇭Swiss man<br>
