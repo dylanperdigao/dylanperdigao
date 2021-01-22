@@ -1,4 +1,4 @@
-### Hi there 👋
+# Hi there 👋
 
 ## Who am I?
 That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the University of Coimbra 🇵🇹
@@ -11,14 +11,14 @@ That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informat
   ➤ 🌱 I’m currently learning PHP, OpenGL and C++<br>
 
 ## Languages
-# My favorite programming language is:<br>
+### My favorite programming language is:<br>
   ➤ 🐍 Python<br>
-# But I know other languages like:<br>
+### But I know other languages like:<br>
   ➤ C<br>
   ➤ Java<br>
   ➤ Javascript (and HTML/CSS)<br>
   ➤ VisualBasic<br>
-# I speak four human languages that are:<br>
+### I speak four human languages that are:<br>
   ➤ 🇵🇹 Portuguese(fluent)<br>
   ➤ 🇫🇷 French(fluent)<br>
   ➤ 🇬🇧 English(B2)<br>
