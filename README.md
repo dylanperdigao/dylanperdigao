@@ -17,6 +17,7 @@ That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informat
   ➤ C<br>
   ➤ Java<br>
   ➤ Javascript (and HTML/CSS)<br>
+  ➤ Matlab (and HTML/CSS)<br>
   ➤ VisualBasic<br>
 ### I speak four human languages that are:<br>
   ➤ 🇵🇹 Portuguese(fluent)<br>
