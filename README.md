@@ -16,8 +16,8 @@ That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informat
 ### But I know other languages like:<br>
   ➤ C<br>
   ➤ Java<br>
-  ➤ Javascript (and HTML/CSS)<br>
-  ➤ Matlab (and HTML/CSS)<br>
+  ➤ Javascript (with HTML/CSS)<br>
+  ➤ Matlab<br>
   ➤ VisualBasic<br>
 ### I speak four human languages that are:<br>
   ➤ 🇵🇹 Portuguese(fluent)<br>
