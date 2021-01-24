@@ -8,13 +8,17 @@ import sys
 from commitsStats import *
 from fileUpdater import *
 
-def updateStatsSection(path, data):
+def updateStatsSection(repository, data):
+	readme=repository.get_readme()
 	string="<!--STATS-->\n"
 	string+="<!--BEGIN-->\n"
 	string+=getProductivity(data)
 	string+=getActivityGraph(data)
 	string+="<!--END-->\n"
-	updateFileInfo(path,'STATS',string)
+	newReadme=updateFileInfo(readme.path,'STATS',string)
+	#commit changes
+	repository.update_file(path=readme.path, message="Automatically Updated", content=newReadme, sha=readme.sha, branch='main')
+	print("File Automatically Updated")
 
 if __name__=='__main__':
 	access_token = sys.argv[1]
@@ -23,14 +27,10 @@ if __name__=='__main__':
 		if g:
 			#get file
 			user = g.get_user()
-			readme_repo = user.get_repo(user.login)
-			readme = readme_repo.get_readme()
-			#get stats
+			repository = user.get_repo(user.login)
+			#update stats
 			data=getActivityPercentage(user)
-			newReadme=updateStatsSection(readme.path,data)
-			#commit changes
-			readme_repo.update_file(path=readme.path, message="Automatically Updated", content=newReadme, sha=readme.sha, branch='main')
-			print("File Automatically Updated")
+			newReadme=updateStatsSection(repository,data)
 		else:
 			print("Error with login: {}".format(g))
 	else:
