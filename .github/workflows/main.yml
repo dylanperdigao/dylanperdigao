@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: pip install pygithub
-      - run: pip install matplotlib
-      - run: pip install numpy
+      - run: pip3 install pygithub
+      - run: pip3 install matplotlib
+      - run: pip3 install numpy
       - run: python3 main.py ${{ secrets.GH_TOKEN }}
