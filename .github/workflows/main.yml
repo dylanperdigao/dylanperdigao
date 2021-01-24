@@ -18,5 +18,4 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: pip install pygithub
-      - run: pip install matplotlib
       - run: python main.py ${{ secrets.GH_TOKEN }}

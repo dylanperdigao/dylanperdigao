@@ -1,8 +1,3 @@
-def setActivityGraph(path,data):
-	hours = np.arange(24)
-	plt.bar(hours,data)
-	plt.savefig(path)
-
 def getActivityGraph(data):
 	string="### Activity Graph 📈\n\n"
 	string+="```bash\n"
