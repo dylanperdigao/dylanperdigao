@@ -15,7 +15,7 @@ def updateStatsSection(path, data):
 	updateFileInfo(path,'STATS',string)
 
 if __name__=='__main__':
-	access_token = os.getenv('INPUT_GH_TOKEN')
+	access_token = os.getenv('GH_TOKEN')
 	if access_token:
 		g = Github(access_token)
 		user = g.get_user()
