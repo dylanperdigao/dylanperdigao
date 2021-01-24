@@ -1,17 +1,11 @@
-name: "Hello Actions"
-description: "Greet someone"
-author: "octocat@github.com"
+name: "Action"
+author: "Dylan Perdigão"
 
 inputs:
   GH_TOKEN:
-    description: "Who to greet"
+    description: "Token"
     required: true
-    default: "World"
 
 runs:
   using: "docker"
   image: "Dockerfile"
-
-branding:
-  icon: "mic"
-  color: "purple"
