@@ -20,4 +20,4 @@ jobs:
       - run: pip install pygithub
       - run: pip install matplotlib
       - run: pip install numpy
-      - run: python main.py ${{ secrets.GH_TOKEN }}
+      - run: python3 main.py ${{ secrets.GH_TOKEN }}
