@@ -17,5 +17,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: |
-          python main.py ${{ secrets.GH_TOKEN }}
+      - run: pip install pygithub
+      - run: python main.py ${{ secrets.GH_TOKEN }}
