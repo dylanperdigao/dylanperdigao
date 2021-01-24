@@ -24,7 +24,7 @@ if __name__=='__main__':
 			#get file
 			user = g.get_user()
 			readme_repo = user.get_repo(user.login)
-    			readme = readme_repo.get_readme()
+			readme = readme_repo.get_readme()
 			#get stats
 			data=getActivityPercentage(user)
 			newReadme=updateStatsSection(readme.path,data)
