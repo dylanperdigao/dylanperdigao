@@ -3,6 +3,7 @@ from github import Github
 import matplotlib.pyplot as plt
 import numpy as np
 import os
+import sys
 
 from commitsStats import *
 from fileUpdater import *
@@ -16,7 +17,8 @@ def updateStatsSection(path, data):
 	updateFileInfo(path,'STATS',string)
 
 if __name__=='__main__':
-	access_token = os.getenv('GH_TOKEN')
+	print("Args: {}".format(len(sys.argv)))
+	access_token = sys.argv[1]
 	if access_token:
 		g = Github(access_token)
 		user = g.get_user()
