@@ -17,6 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - run: pip3 install --upgrade pip
       - run: pip3 install pygithub
       - run: pip3 install matplotlib
       - run: pip3 install numpy
