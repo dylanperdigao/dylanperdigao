@@ -19,6 +19,5 @@ jobs:
       - uses: actions/checkout@v1
       - run: pip3 install --upgrade pip
       - run: pip3 install pygithub
-      - run: pip3 install matplotlib
       - run: pip3 install numpy
       - run: python3 main.py ${{ secrets.GH_TOKEN }}
