@@ -1,4 +1,4 @@
-name: README Updater
+name: main workflow
 
 # Controls when the action will run. 
 on:
