@@ -14,7 +14,7 @@ def getFileInfo(path):
 			else:
 				if "<!--END-->" in line:
 					isReading = False
-	print(content)
+	#print(content)
 	return content
 
 def updateFileInfo(path,key,newContent):
@@ -23,8 +23,10 @@ def updateFileInfo(path,key,newContent):
 		for line in content:
 			if "<!--{}-->".format(key) in line:
 				f.write(newContent)
+				print(newContent)
 			else:
 				f.write(line)
+				print(line)
 
 if __name__=='__main__':
 	test="<!--TEST-->\n"
