@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 def getActivityGraph(data):
 	string="### Activity Graph 📈\n\n"
 	string+="```bash\n"

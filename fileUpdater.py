@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 def getFileInfo(path):
 	isReading=True
 	content=list()
