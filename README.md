@@ -34,7 +34,7 @@ buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the <a hre
 <!--STATS-->
 <!--BEGIN-->
 ## Some Statistics about me
-
+aa
 ### I'm more productive in the Afternoon
 (48% of my commits)
 ### Activity Graph 📈
