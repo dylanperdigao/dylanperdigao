@@ -39,11 +39,12 @@ def getProductivity(data):
 	#print(string)
 	return string
 
-def getActivityPercentage(user):
+def getActivityPercentage(repositories):
 	hours = [ 0 for _ in range(24)]
-	for r in user.get_repos():
-		for c in r.get_commits():
-			hours[c.commit.author.date.hour] += 1
+	for r in repositories:
+		if not r.fork:
+			for c in r.get_commits():
+				hours[c.commit.author.date.hour] += 1
 	percentage = [round(100*val/sum(hours)) for val in hours]
 	#print("Percentage: {}".format(percentage))
 	return percentage
