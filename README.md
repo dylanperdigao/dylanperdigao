@@ -33,12 +33,13 @@ buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the <a hre
 
 <!--STATS-->
 <!--BEGIN-->
-## Some Statistics about me
-aa
-### I'm more productive in the Afternoon
-(48% of my commits)
+### I'm more productive in the Afternoon 🌇
+(50% of my commits)
+
 ### Activity Graph 📈
+
 ```bash
+                                 | |            
                                  | |            
                                | | |            
                                | | | |       |  
@@ -46,8 +47,9 @@ aa
  |   |                       | | | | | | |   | |
  | | | |                     | | | | | | | | | |
  | | | |                   | | | | | | | | | | |
- | | | |             | |   | | | | | | | | | | |
+ | | | | |           | |   | | | | | | | | | | |
  | | | | |         | | | | | | | | | | | | | | |
- ```
-
+================================================
+ 0h      4h      8h     12h     16h     20h     
+```
 <!--END-->
