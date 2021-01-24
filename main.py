@@ -21,9 +21,16 @@ if __name__=='__main__':
 	if access_token:
 		g = Github(access_token)
 		if g:
+			#get file
 			user = g.get_user()
+			readme_repo = user.get_repo(user.login)
+    			readme = readme_repo.get_readme()
+			#get stats
 			data=getActivityPercentage(user)
-			updateStatsSection('README.md',data)
+			newReadme=updateStatsSection(readme.path,data)
+			#commit changes
+			readme_repo.update_file(path=readme.path, message="Automatically Updated", content=newReadme, sha=readme.sha, branch='main')
+			print("File Automatically Updated")
 		else:
 			print("Error with login: {}".format(g))
 	else:
