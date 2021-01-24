@@ -25,5 +25,19 @@ That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informat
   ➤ 🇬🇧 English(B2)<br>
   ➤ 🇩🇪 German(B2)<br>
 
+## Some Statistics about me
 
-
+### I'm more productive in the Afternoon
+(48% of my commits)
+### Activity Graph 📈
+                                 | |            
+                               | | |            
+                               | | | |       |  
+                               | | | |   |   | |
+ |   |                       | | | | | | |   | |
+ | | | |                     | | | | | | | | | |
+ | | | |                   | | | | | | | | | | |
+ | | | |             | |   | | | | | | | | | | |
+ | | | | |         | | | | | | | | | | | | | | |
+================================================
+ 0h      4h      8h     12h     16h     20h  
