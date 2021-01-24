@@ -18,15 +18,14 @@ def getFileInfo(path):
 	return content
 
 def updateFileInfo(path,key,newContent):
+	updatedInfo=""
 	content = getFileInfo(path)
-	with open(path,'w',encoding='utf-8') as f:
-		for line in content:
-			if "<!--{}-->".format(key) in line:
-				f.write(newContent)
-				print(newContent)
-			else:
-				f.write(line)
-				print(line)
+	for line in content:
+		if "<!--{}-->".format(key) in line:
+			updateInfo+=newContent
+		else:
+			updateInfo+=content
+	return updatedInfo
 
 if __name__=='__main__':
 	test="<!--TEST-->\n"
