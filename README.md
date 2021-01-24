@@ -25,6 +25,8 @@ That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informat
   ➤ 🇬🇧 English(B2)<br>
   ➤ 🇩🇪 German(B2)<br>
 
+<!--STATS-->
+<!--BEGIN-->
 ## Some Statistics about me
 
 ### I'm more productive in the Afternoon
@@ -40,6 +42,4 @@ That's a good question... :) buuuuuut I'm Dylan Perdigão, a student of Informat
  | | | |                   | | | | | | | | | | |
  | | | |             | |   | | | | | | | | | | |
  | | | | |         | | | | | | | | | | | | | | |
-================================================
- 0h      4h      8h     12h     16h     20h  
- ```
+<!--END-->
