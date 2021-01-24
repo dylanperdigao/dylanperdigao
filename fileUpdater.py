@@ -14,7 +14,7 @@ def getFileInfo(path):
 			else:
 				if "<!--END-->" in line:
 					isReading = False
-	#print(content)
+	print(content)
 	return content
 
 def updateFileInfo(path,key,newContent):
