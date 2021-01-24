@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from github import Github
 import matplotlib.pyplot as plt
 import numpy as np
