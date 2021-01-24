@@ -16,4 +16,4 @@ jobs:
     steps:
       - uses: DylanPerdigao/dylanperdigao@main
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          args: ${{ secrets.GH_TOKEN }}
