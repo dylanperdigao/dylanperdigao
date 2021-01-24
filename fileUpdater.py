@@ -24,7 +24,7 @@ def updateFileInfo(path,key,newContent):
 		if "<!--{}-->".format(key) in line:
 			updatedInfo+=newContent
 		else:
-			updatedInfo+=content
+			updatedInfo+=line
 	return updatedInfo
 
 if __name__=='__main__':
