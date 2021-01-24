@@ -22,9 +22,9 @@ def updateFileInfo(path,key,newContent):
 	content = getFileInfo(path)
 	for line in content:
 		if "<!--{}-->".format(key) in line:
-			updateInfo+=newContent
+			updatedInfo+=newContent
 		else:
-			updateInfo+=content
+			updatedInfo+=content
 	return updatedInfo
 
 if __name__=='__main__':
