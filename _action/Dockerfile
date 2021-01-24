@@ -1,5 +1,6 @@
 FROM debian:9.5-slim
 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ADD ../main.py /main.py
+RUN chmod +x /main.py
+
+ENTRYPOINT ["/main.py"]
