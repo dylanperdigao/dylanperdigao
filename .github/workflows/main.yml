@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   # Runs at 00:00 Europe/Lisbon everyday
   schedule:
-    - cron: '0 23 * * *'
+    - cron: '0 0 * * 1'
 
 jobs:
   build:
