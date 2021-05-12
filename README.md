@@ -9,7 +9,7 @@ buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the <a hre
   ➤ 👶🏻 I was born in 🇨🇭Switzerland<br>
   ➤ 🏠 I'm actually living in 🇵🇹Portugal<br>
   ➤ 🔭 I’m currently working on some courses projects in my university<br>
-  ➤ 🌱 I’m currently learning C#, SQL and PLpgSQL<br>
+  ➤ 🌱 I’m currently learning Distributed Systems, Docker, C#, SQLite, pgSQL and PLpgSQL<br>
   
 
 ## Languages
