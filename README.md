@@ -9,19 +9,19 @@ buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the <a hre
   ➤ 👶🏻 I was born in 🇨🇭Switzerland<br>
   ➤ 🏠 I'm actually living in 🇵🇹Portugal<br>
   ➤ 🔭 I’m currently working on some courses projects in my university<br>
-  ➤ 🌱 I’m currently learning PHP, OpenGL and C++<br>
+  ➤ 🌱 I’m currently learning Artificial Intelligence & Machine Learning<br>
   
 
 ## Languages
 ### My favorite programming language is:
-
   ➤ 🐍 Python
   
 ### But I know other languages like:
 
-  ➤ C<br>
+  ➤ C / C++ / C#<br>
   ➤ Java<br>
-  ➤ Javascript (with HTML/CSS)<br>
+  ➤ HTML / CSS / Javascript<br>
+  ➤ PHP<br>
   ➤ Matlab<br>
   ➤ VisualBasic<br>
   
@@ -31,11 +31,14 @@ buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the <a hre
   ➤ 🇬🇧 English(B2)<br>
   ➤ 🇩🇪 German(B2)<br>
 
+## Other Competencies
+  ➤ OpenGL 
+
 <!--STATS-->
 <!--BEGIN-->
 ## Some Statistics
 ### I'm more productive in the Afternoon 🌇
-(53% of my commits)
+(55% of my commits)
 
 ### Activity Graph 📈
 
