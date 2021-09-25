@@ -42,6 +42,10 @@ buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the <a hre
 
 ### Activity Graph 📈
 
-![Activity Graph](images/activity_graph.png)### Most used languages 📈
+![Activity Graph](images/activity_graph.png)
 
-![Languages Graph](images/languages_graph.png)<!--END-->
+### Most used languages 📈
+
+![Languages Graph](images/languages_graph.png)
+
+<!--END-->
