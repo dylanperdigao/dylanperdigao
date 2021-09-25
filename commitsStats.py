@@ -6,8 +6,7 @@ import plotly.express as px
 def getActivityGraph(data):
     string = "### Activity Graph 📈\n\n"
     string += "![Activity Graph](images/activity_graph.png)"
-    print(data)
-    d = {'Hours': [x for x in range(24)], 'Commits': [np.random.randint(100) for _ in range(24)]}
+    d = {'Hours': [x for x in range(24)], 'Commits': data}
     df = pd.DataFrame(data=d)
     fig = px.bar(df, x='Hours', y='Commits', color='Commits', template='plotly_dark')
     fig.write_image("images/activity_graph.png")
