@@ -17,4 +17,7 @@ jobs:
       - run: pip3 install --upgrade pip
       - run: pip3 install pygithub
       - run: pip3 install numpy
+      - run: pip3 install pandas
+      - run: pip3 install plotly
+      - run: pip3 install kaleido
       - run: python3 main.py ${{ secrets.GH_TOKEN }}
