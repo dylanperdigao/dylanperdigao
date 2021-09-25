@@ -5,7 +5,7 @@ import plotly.express as px
 
 def getActivityGraph(data):
     string = "### Activity Graph 📈\n\n"
-    string += "![Activity Graph](images/activity_graph.png)"
+    string += "![Activity Graph](images/activity_graph.png)\n\n"
     d = {'Hours': [x for x in range(24)], 'Commits': data}
     df = pd.DataFrame(data=d)
     fig = px.bar(df, x='Hours', y='Commits', color='Commits', template='plotly_dark')

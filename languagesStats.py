@@ -9,7 +9,7 @@ def getLanguagesGraph(repositories=None, languages=None):
 	if repositories:
 		languages = getLanguages(repositories)
 	percentage = getLanguagesPercentage(languages)
-	string += "![Languages Graph](images/languages_graph.png)"
+	string += "![Languages Graph](images/languages_graph.png)\n\n"
 	for key, val in languages.items():
 		d["Language"].append(key)
 		d["Percentage"].append(val)
