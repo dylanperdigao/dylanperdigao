@@ -42,7 +42,7 @@ def commitImg(usr):
 		'images/languages_graph.png'
 	]
 	commit_message = 'Updated Image'
-	master_ref = repo.get_git_ref('heads/master')
+	master_ref = repo.get_git_ref('heads/main')
 	master_sha = master_ref.object.sha
 	base_tree = repo.get_git_tree(master_sha)
 	element_list = list()
