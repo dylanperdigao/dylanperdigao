@@ -1,7 +1,8 @@
-import numpy as np
+import base64
+from github import Github
+from github import InputGitTreeElement
 import pandas as pd
 import plotly.express as px
-
 
 def getActivityGraph(data):
     string = "### Activity Graph 📈\n\n"
@@ -41,8 +42,7 @@ def getActivityPercentage(repositories):
 
 
 def main():
-    d = {'hours': [x for x in range(24)], 'commits': [np.random.randint(100) for _ in range(24)]}
-    getActivityGraph(d)
+    pass
 
 
 if __name__ == '__main__':
