@@ -1,8 +1,6 @@
-from github import Github
-import numpy as np
-import os
 import sys
 
+from github import Github
 from languagesStats import *
 from commitsStats import *
 
@@ -35,32 +33,7 @@ def updateSection(path, section, newContent):
 	return updated_info
 
 
-def commitImg(usr):
-	repo = usr.get_repo('dylanperdigao')
-	file_list = [
-		'images/activity_graph.png',
-		'images/languages_graph.png'
-	]
-	commit_message = 'Updated Image'
-	master_ref = repo.get_git_ref('heads/main')
-	master_sha = master_ref.object.sha
-	base_tree = repo.get_git_tree(master_sha)
-	element_list = list()
-	for entry in file_list:
-		with open(entry, 'rb') as input_file:
-			data = input_file.read()
-		if entry.endswith('.png'):
-			data = base64.b64encode(data)
-		element = InputGitTreeElement(entry, '100644', 'blob', data)
-		element_list.append(element)
-	tree = repo.create_git_tree(element_list, base_tree)
-	parent = repo.get_git_commit(master_sha)
-	commit = repo.create_git_commit(commit_message, tree, [parent])
-	master_ref.edit(commit.sha)
-
-
 def updateStatsSection(usr):
-	commitImg(usr)
 	repositories = usr.get_repos(usr.login)
 	repository = usr.get_repo(usr.login)
 	data = getActivityPercentage(repositories)
@@ -72,9 +45,9 @@ def updateStatsSection(usr):
 	# productivity
 	string += getProductivity(data)
 	# activity graph
-	string += getActivityGraph(data)
+	string += getActivityGraph(repository, data)
 	# languages graph
-	string += getLanguagesGraph(repositories)
+	string += getLanguagesGraph(repository, repositories)
 	# end
 	string += "<!--END-->\n"
 	new_readme = updateSection(readme.path, 'STATS', string)

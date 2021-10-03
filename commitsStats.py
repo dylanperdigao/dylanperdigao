@@ -1,16 +1,15 @@
-import base64
-from github import Github
-from github import InputGitTreeElement
 import pandas as pd
 import plotly.express as px
 
-def getActivityGraph(data):
+
+def getActivityGraph(repo, data):
     string = "### Activity Graph 📈\n\n"
     string += "![Activity Graph](images/activity_graph.png)\n\n"
     d = {'Hours': [x for x in range(24)], 'Commits': data}
     df = pd.DataFrame(data=d)
     fig = px.bar(df, x='Hours', y='Commits', color='Commits', template='plotly_dark')
-    fig.write_image("images/activity_graph.png")
+    img = fig.to_image(format="png")
+    #repo.create_file("images/activity_graph.png", "Activity Graph", img)
     return string
 
 
@@ -42,7 +41,7 @@ def getActivityPercentage(repositories):
 
 
 def main():
-    pass
+    getActivityGraph(None, [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11,1,1,1,1,1,1,1,1])
 
 
 if __name__ == '__main__':
