@@ -5,13 +5,8 @@ That's a good question... :)<br>
 buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the <a href="https://www.uc.pt">University of Coimbra</a> 🇵🇹
 
 ## About Me
-  ➤ 👤 I'm a 🇵🇹Portuguese/🇨🇭Swiss man<br>
-  ➤ 👶🏻 I was born in 🇨🇭Switzerland<br>
-  ➤ 🏠 I'm actually living in 🇵🇹Portugal<br>
-  ➤ 🔭 I’m currently working on some courses projects in my university<br>
-  ➤ 🌱 I’m currently learning Artificial Intelligence & Machine Learning<br>
+  ➤ I need to update this file 
   
-
 ## Languages
 ### My favorite programming language is:
   ➤ 🐍 Python
