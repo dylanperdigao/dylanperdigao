@@ -31,21 +31,3 @@ buuuuuut I'm Dylan Perdigão, a student of Informatics Engineering at the <a hre
   ➤ 🇬🇧 English(B2)<br>
   ➤ 🇩🇪 German(B2)<br>
 
-## Other Competencies
-  ➤ OpenGL 
-
-<!--STATS-->
-<!--BEGIN-->
-## Some Statistics
-### I'm more productive in the Afternoon 🌇
-(55% of my commits)
-
-### Activity Graph 📈
-
-![Activity Graph](images/activity_graph.png)
-
-### Most used languages 📈
-
-![Languages Graph](images/languages_graph.png)
-
-<!--END-->
